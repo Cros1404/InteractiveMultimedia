@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="responsive_list.css">
+  <script src="ListModel.js"></script>
+  <script src="ViewController.js"></script>
+  <title>Assignment 3 - MVC person list</title>
+</head>
+
+<body onload="updateList()">
+  <main>
+    <p>Name</p>
+    <input id="name-input" type="text">
+    <button type="button" onclick="addPerson()">
+      Add Person
+    </button>
+    <div id="list"></div>
+  </main>
+</body>
+
+</html>

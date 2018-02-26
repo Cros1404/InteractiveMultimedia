@@ -1,0 +1,50 @@
+What is the purpose of the RWD? Why it is used? How things are done
+before RWD? What is the difference?
+
+The purpose of RWD is to make websites look and feel good on different screen 
+sizes. Unresponsive websites designed for desktop can look bad on very small or
+very large screens. One problem, for example, that RWD solves is that
+unresponsive websites designed for desktop will probably have to be scrolled
+horizontally on smaller phone screens, which can be tedious and annoying - RWD
+makes it so the website adapts so that it needs only vertical scrolling. Before
+RWD separate website versions were made specifically for phones, for exmaple, or
+for specific devices, like "mobile.nytimes.com". The difference now is that
+there is no need for separate versions of websites for specific devices,
+ because responsive websites can adapt and look good on any screen size.
+
+How css media queries can help you building responsive web sites?
+
+With media queries you can find out information about the current device, for
+example, width and height of the screen, orientation (landscape or portrait 
+mode) or its resolution. In addition, an expression that evaluates to true or 
+false is used to resolve whether to use a certain media query style. For 
+example, a style will be applied only if screen is wider than 1000px or only if 
+width is less than 1000px. This means that you can set width breakpoints for 
+when design should change to accomadate the screen size of the current device.
+
+Why to use em (font) based sizing for example margins?
+
+Because when element is using em, to determine the actual size, it will use the 
+font size of it's parent element. This means that if user has made the font size
+smaller or bigger, all padding, margins and fonts that are using em will adjust
+accordingly, this way all proportions of the design will be conserved. Em means
+the size of the letter "M", therefore it is linked to font size.
+
+Article is already 7 years old, do we have any new technology which can
+be used to achieve same type of UI responsiveness as described in the
+article. Buzz words: (CSS Grid, Flexbox)
+
+CSS Grid - a grid elemnt consists of items divided into rows and columns. Items 
+can span multiple rows or columns. CSS grids perserve the proportions of its 
+items if screen size changes.
+
+Flexbox - flexbox consists of one or more child elements. Flexbox has some 
+responsive features. Child elements can wrap and stack in the flexbox if it's
+width or height changes. Also proportions will be perserved between the child 
+elements and the spacing around them if flexbox size changes.
+
+Bootstrap - popular framework for making responsive websites. Bootstrap has a 
+grid system that allows to divide a page into 12 columns, you can group columns
+to make wider columns. Columns will rearrange automatically when screen size 
+changes, for example, columns that are side by side on a desktop screen could be
+made to stack vertically on a phone screen.

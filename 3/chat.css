@@ -1,0 +1,17 @@
+#chat {
+  height: 20em;
+  width: 40em;
+  border-radius: .3em;
+  margin-bottom: 1em;
+  background-color: lightgrey;
+  overflow: scroll;
+}
+#message-input { 
+  width: 35.5em;
+  margin-bottom: 1em;
+}
+button {
+  display: block;
+  width: 35.75em;
+  height: 3em;
+}

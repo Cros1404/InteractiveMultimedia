@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <script src="scripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Assignment 3</title>
+</head>
+
+<body onload="onLoad()">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="list_mvc/responsive_list.html">Person list local storage</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container">
+    <h1>Assignment 3</h1>
+    <br>
+    <h2> What kind of problems web sockets solve? In what kind of situations you should
+      use them?</h2>
+    <p>
+      Before web sockets, usually HTTP communication was operating on request/response
+      paradigm. This meant that clients had to send a request to recieve data from
+      the server, server couldn't just sent data by itself whenever it wanted, server
+      could not initiate a connection. Long polling was a workaround for this problem,
+      but there was also another problem - communication still carried overhead of
+      HTTP, which is problematic for low-latency applications, like online video
+      games. WebSockets solve these problems by using WebSocket communication protocol
+      and keeping the connection open between client and server, each of which can
+      send data at any time.
+      <br>
+      <br> You should use WebSockets when you need low-latency, close to real-time communication
+      between client and server. For example, multiplayer online games, chat apps,
+      live sports tickers and social streams updating realtime.
+    </p>
+    <h1>Audio element</h1>
+    <audio>
+      <source src="http://stream.basso.fi:8000/stream">
+    </audio>
+    <button id="play">Play</button>
+    <button id="pause">Pause</button>
+    <input id="vol-control" type="range" min="0" max="100" step="1" oninput="setVolume(this.value)">
+  </main>
+</body>
+
+</html>

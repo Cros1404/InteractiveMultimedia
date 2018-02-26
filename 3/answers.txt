@@ -1,0 +1,16 @@
+ What kind of problems web sockets solve? In what kind of situations you should
+ use them?
+
+Before web sockets, usually HTTP communication was operating on request/response
+paradigm. This meant that clients had to send a request to recieve data from 
+the server, server couldn't just sent data by itself whenever it wanted, server
+could not initiate a connection. Long polling was a workaround for this problem,
+but there was also another problem - they carried overhead of HTTP, which is 
+problematic for low-latency applications, like online video games. WebSockets
+solve these problems by using WebSocket communication protocol and keeping the
+connection open between client and server, each of which can send data at any 
+time.
+
+You should use WebSockets when you need low-latency, close to real-time 
+communication between client and server. For example, multiplayer online games,
+chat apps, live sports tickers and social streams updating realtime.

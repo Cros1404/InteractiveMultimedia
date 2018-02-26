@@ -1,0 +1,53 @@
+HTML
+
+Hyper Text Markup Language
+Used to define the structure of a web page by marking and dividing things into 
+elements using tags
+
+CSS
+
+Cascading Style Sheets
+
+Style sheet language that defines formatting of a document written in markup
+language. Typically used with HTML. HTML is content, CSS is presentation. CSS
+defines how things look visually. CSS reduces complexity and repetition, because
+one external .css file can be used on multiple HTML documents that have elements
+that need identical formatting, and if formatting needs to be changed across
+all the HTML documents using that file, only that one .css file needs to be
+edited.
+
+Javascript
+
+High-level, dynamic, weakly typed, and interpreted programming language.
+Javascript code is run on the client, the web browser. It is used to make
+websites interactive, dynamic. Javascript uses the HTML DOM to access and change
+elements of an HTML document.
+
+HTTP
+
+Hypertext Transfer Protocol. Communication protocol at the application layer.
+Used to send and recieve hypertext, like HTML documents. HTTP operates on
+client-server basis. An HTTP client, that can be a browser, sends requests for 
+web resources to the server. HTTP resources are identified by a URL. HTTP also
+defines so called "HTTP methods", that show what action the client wants to 
+perform on the resource requested, for example, typically to request an HTML 
+document a "GET method" is used. Other common methods are POST, PUT and DELETE.
+
+HTML5
+
+HTML5 is the current version of the HTML standard. HTML5 introduced new semantic
+elements, new attributes to form elements, new graphic elements - SVG and 
+canvas - and new multimedia elements - <audio> and <video>. It also introduced
+new API's, for example, HTML Geolocation and HTML Local Storage.
+
+DHTML
+
+DHTML is a collection of technologies used to make interactive, animated web
+pages by using a static markup language, clien-side scripting language,
+presentation definition language and the DOM - basically: HTML, CSS and 
+Javascript. DHTML enables scripting languages (Javascript) to change variables
+of definition language (CSS), which changes the visual look of otherwise static
+web page. This is done after the web page is fully loaded and during the viewing
+of it. With DHTML there is no interaction with a web server, all actions are
+executed in Javascript on the client side.
+

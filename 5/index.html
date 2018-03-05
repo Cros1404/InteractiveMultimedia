@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="scripts.js"></script>
+  <title>Assignment 5</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="list/list.html">jQuery list</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container">
+    <h1>What you can do with the jQuery?</h1>
+    <p>
+      Easier DOM manipulation and traversal
+      <br>Handle events
+      <br>Animations and effects Use AJAX
+      <br>JSON parsing
+      <br>Multi-browser support
+      <br>Chain commands
+    </p>
+    <h1>How it can help you as web developer?</h1>
+    <p>In some cases, for example, with heavy DOM manipulation, jQuery might be much
+      easier to use than pure JavaScript. jQuery helps separate your HTML code from
+      your JavaScript code, because it's easier to add event handlers to elements.
+      Chainable commands can also help make your code shorter and clearer. Like other
+      JavaScript toolkits, jQuery also aims to handle many cross-browser incompabilities.
+      With jQuery you can also implement AJAX and add animations and effects.</p>
+    <h1>If you think our earlier participant list app, in what kind of issues you could
+      use jQuery?</h1>
+    <p>If we wanted to maker our code shorter, improve cross-browser compatability,
+      add AJAX or animations.</p>
+    <h1>What are CDNs? What kind of benefits you get if you use them?</h1>
+    <p>A collection of servers spread over many geographical places. These servers store
+      identical copies of data that clients can request, and only the closest server
+      will send the data to the client. This makes data delivery faster and reduces
+      potential traffic congestion. CDNs are often used for stylesheets and Javascript
+      files of libraries like jQuery and Bootstrap. When you use CDNs for these libraries,
+      you reduce load on your own server, reduce latency, because CDNs might be geographically
+      closer to the client than your server, and, since a lot of websites use these
+      CDNs, the file the client is trying to download might already be cached from
+      that CDNs, so client doesn't have download it again, improving performance.</p>
+    <h1>PersonsList:</h1>
+    <div id="persons">
+      <div class="btn btn-primary">Load with AJAX</div>
+    </div>
+  </main>
+</body>
+
+</html>

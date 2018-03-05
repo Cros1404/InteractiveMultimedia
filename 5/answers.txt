@@ -22,6 +22,17 @@ If you think our earlier participant list app, in what kind of issues you could 
 jQuery?
 
 If we wanted to maker our code shorter, improve cross-browser compatability, add
-AJAX or animations.. 
+AJAX or animations.
 
 What are CDNs? What kind of benefits you get if you use them? 
+
+A collection of servers spread over many geographical places. These servers 
+store identical copies of data that clients can request, and only the closest
+server will send the data to the client. This makes data delivery faster and 
+reduces potential traffic congestion. CDNs are often used for stylesheets and 
+Javascript files of libraries like jQuery and Bootstrap. When you use CDNs for 
+these libraries, you reduce load on your own server, reduce latency, because 
+CDNs might be geographically closer to the client than your server, and, since a 
+lot of websites use these CDNs, the file the client is trying to download might 
+already be cached from that CDNs, so client doesn't have download it again,
+improving performance.

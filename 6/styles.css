@@ -1,0 +1,22 @@
+main { padding-bottom: 100px;}
+img { 
+    width: 18em;
+    height: 11em;
+    padding-bottom: 1em;
+}
+input { 
+    height: 2.3em;
+    width: 9em;
+}
+.img-div {
+    width: 18em;
+    margin: auto;
+}
+#input-div {
+    width: 13.7em;
+    margin: auto;
+}
+
+#body {
+    background-color: black;
+}
